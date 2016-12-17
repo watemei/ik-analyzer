@@ -359,4 +359,13 @@ public class Dictionary {
 		}
 	}
 	
+	/**
+	 * @Description 清空字典缓存，用于动态更新字典表
+	 * @author gongstring<1@gongstring.com>
+	 * @createTime 2016年11月29日 上午9:56:15
+	 */
+	public static void clear(){
+		singleton = null;
+	}
+	
 }
